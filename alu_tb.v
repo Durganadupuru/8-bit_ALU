@@ -3,7 +3,7 @@
 module alu_tb;
 
 reg  [7:0] A, B;
-reg  [2:0] sel;
+reg  [3:0] sel;
 wire [7:0] result;
 wire carry, zero;
 
