@@ -1,0 +1,17 @@
+# Clock (100 MHz)
+set_property PACKAGE_PIN W5 [get_ports clk]
+set_property IOSTANDARD LVCMOS33 [get_ports clk]
+
+# Switches
+set_property PACKAGE_PIN V17 [get_ports A[0]]
+set_property PACKAGE_PIN V16 [get_ports A[1]]
+# ... Add A[2] to A[7] and B[0] to B[7]
+
+# Operation select switches
+set_property PACKAGE_PIN U16 [get_ports sel[0]]
+set_property PACKAGE_PIN T15 [get_ports sel[1]]
+set_property PACKAGE_PIN T14 [get_ports sel[2]]
+
+# LEDs for result[0] to result[7]
+set_property PACKAGE_PIN U5 [get_ports result[0]]
+# ... Add result[1] to result[7]
